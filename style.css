@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-default: #F5F4F0;
+    --border-primary: #D9D9D9;
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+    font-family: "Open Sans", sans-serif;
+}
+/* Configurações gerais, inclusas no styleguide disponível no figma */
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+.headline {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-headline)
+
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.subtitle {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+img {
+    border-radius: 28px;
+}
+
+/**/
+body {
+    background-color: var(--background-default)
+}
+.content {
+    width: 1467px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    margin-top: 8px;
+}
+
+h1, h2, h3 {
+    color: var(--text-primary)
+}
+
+p {
+    color: var(--text-secondary)
+}
+
+.firstImage {
+    margin: 44px 0 24px;
+}
+
+.primeirohr {
+    margin-bottom: 64px
+}
+
+hr {
+    margin: 40px 0 40px;
+    border-color: var(--border-primary)
+}
+
+.firstDescription {
+    margin: 8px 0 16px;
+}
+
+.listImage {
+    margin-top: 48px;
+    height: 350px;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+h3 {
+    margin: 20px 0 4px;
+}
+
+ol, ul, li {
+    list-style: none ;
+}
+
+ul {
+    font-weight: 700;
+}
+
+.historia {
+    color: var(--accent-blue)
+}
+.casais {
+    color: var(--accent-purple)
+}
+.familias {
+    color: var(--accent-pink)
+}
+.orcamento {
+    color: var(--accent-orange)
+}
+
+footer {
+    text-align: center;
+}
+
+.designAuthor {
+    margin-top: 65px;
+    font-family: "Alice", sans serif;
+}
